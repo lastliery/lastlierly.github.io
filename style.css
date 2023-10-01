@@ -1,0 +1,407 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-color:beige;
+}
+
+ul
+{
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #186f65;
+    box-shadow: 2px 2px 12px rgba(9, 52, 43, 0.2);
+    padding: 0px 5%;
+}
+
+nav ul
+{
+    display: flex;
+}
+
+nav ul li a
+{
+    margin: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    color:#B5CB99;
+    font-size: 16px;
+    font-weight: 650;
+}
+
+nav ul li a:hover
+{
+background-color: #B5CB99;
+color: #186F65;
+border-radius: 5px;
+}
+
+.logo
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: #B5CB99;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#Home
+{
+    position: relative;
+    width: 100%;
+    height: 55vh;
+}
+
+.home 
+{
+    line-height: 0px;
+}
+
+.home p:nth-child(1)
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color:#445D48;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 60px;
+}
+
+.home p:nth-child(2)
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #445D48;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.home p:nth-child(3)
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #445D48;
+    font-size: 20px;
+    line-height: 30px;
+}
+.home p:nth-child(4)
+
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color:#445D48;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.home p:nth-child(5)
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color:#445D48;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.home p:nth-child(6)
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #445D48;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.home
+{
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    transform: translate(5% , 20%);
+}
+
+.picture
+{
+    width: 400px;
+    height: auto;
+    position: absolute;
+    left: 80%;
+    top: 10%;
+    transform: translateX(-80%);
+}
+
+.About
+{
+    height: 40vh;
+    background-color:#B5CB99;
+    padding: 2% 20% 20%;
+    margin: 30px 30px;
+    margin-bottom: 100px;
+}
+
+.About-description
+{
+    margin: 5% 5%;
+    text-align: center;
+    margin-top: 550px;
+}
+
+.About-description p:nth-child(1)
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #604e2e;
+    font-size: 30px;
+    line-height: 0px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.About-description p:nth-child(2)
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: #423621;
+    font-size: 15px;
+}
+
+.row
+{
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+}
+
+.row .column h2
+{
+    text-align: center;
+    color: #604e2e;
+}
+
+.row .column p
+{
+    text-align: justify;
+    color: #423621;
+}
+
+.column
+{
+    flex: 50%;
+    padding: 30px;
+    height: 200px;
+}
+
+/* Skill*/
+.Skill
+{
+    height: 75vh;
+    padding: 2% 10% 10%;
+    background-color: beige;
+    margin-top: 550px;
+    text-align: justify;
+}
+
+.Skill-Description
+{
+    margin: 50px 50px;
+}
+
+.Skill-Description p:nth-child(1)
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 30px;
+    color:  #604e2e;
+    line-height: 0px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.Skill-Description p:nth-child(2)
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: #423621;
+    font-size: 15px;
+    text-align: center;
+}
+
+.box-container
+{
+    text-align: justify
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box-1, .box-2, .box-3
+{
+    width: 950px;
+    height: 260px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 5px;
+    position: relative
+}
+.box-1 span, .box-2 span, .box-3 span
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #186f65;
+    color: beige;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.box-1 p:nth-child(3), .box-2 p:nth-child(3), .box-3 p:nth-child(3)
+{
+    font-family: 'Times New Roman', Times, serif;
+    color:#423621;
+    width: 400px;
+    margin: 0px 0px 50px;
+    font-size: 13px;
+}
+
+/* Contact */
+.Contact
+{
+    height: 65vh;
+    padding: 2% 10% 10%;
+    background-color: #B5CB99;
+    text-align: justify;
+    margin-top: 450px;
+}
+
+.Contact-Description
+{
+    margin: 50px 50px;
+}
+
+.Contact-Description p:nth-child(1)
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #604e2e;
+    line-height: 0px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.Contact-Description p:nth-child(2)
+{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #423621;
+}
+
+input[type=text], select, textarea
+{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgba(9, 52, 43, 0.2);
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 15px;
+    resize: vertical;
+}
+
+input[type=submit]
+{
+    background-color: #186f65;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+input[type=submit]:hover
+{
+    background-color: #186f65;
+}
+
+input:active
+{
+    transform: scale (1.2);
+}
+
+/* footer */
+footer
+{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #186f65;
+    text-align: justify;
+}
+
+footer p
+{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer p:nth-child(1)
+{
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 20px;
+    color:white;;
+}
+
+footer p:nth-child(2)
+{
+    font-size: 18px;
+    line-height: 20px;
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.Social-Icons
+{
+    margin: 30px 0px;
+    display: flex;
+    text-align: center;
+}
+
+.Social-Icons a
+{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+    background-color: beige;
+    border-radius: 50%;
+}
+
+.Social-Icons i
+{
+    font-size: 35px;
+    color: #186F65;
+}
+
+.Social-Icons a:hover
+{
+    background-color: white;
+    box-shadow: 2px 2px 12px white;
+}
